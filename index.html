@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini IMDB clone app</title>
+    <script src="https://kit.fontawesome.com/9c31560b15.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div id="title">
+            <h2>Mini <span>IMDB</span> clone</h2>
+            <h4 id="favorite-title">Favorite</h4>
+            <h4 id="search-title">Search</h4>
+        </div>
+
+        <!-- Search container -->
+        <div id="search-container">
+            <input id="search-movies" type="text" placeholder="Search Movies">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <ul id="list-items">
+                <div class="inner-div">
+                    <li>
+                        <img class="list-img" src="https://akamaividz2.zee5.com/image/upload/w_224,h_336,c_scale,f_webp,q_auto:eco/resources/0-0-1z5214627/portrait/1920x770da10e51d95a74d62bce2f30739c831fa.jpg" alt="image-movie">
+                        
+                        <h4 class="list-title">Movies Title 1 
+                            <p class="list-year">Year</p>
+                        </h4>
+                    </li>
+                </div>
+                
+            </ul>
+        </div>
+
+        <!--  Show Movies info -->
+        <div id="movie-info">
+            <!-- <div class="m-image">
+                <img id="m-image" src="https://akamaividz2.zee5.com/image/upload/w_224,h_336,c_scale,f_webp,q_auto:eco/resources/0-0-1z5214627/portrait/1920x770da10e51d95a74d62bce2f30739c831fa.jpg" alt="m-image">
+            </div>
+
+            <div id="m-info">
+                <h2 id="m-title">She-Hulk: Attorney at Law</h2>
+
+                <h4 id="m-year">2022</h4>
+
+                <h4 class="imdb-rating">IMDb Rating : <span id="m-rating">5.2</span> /10</h4>
+
+                <h4 class="time">Time : <span id="m-time">2:30m</span></h4>
+
+                <h4 class="plot">Plot : <span id="m-plot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vel illo sapiente vero et laboriosam libero, ducimus doloribus voluptatibus tempora!</span></h4>
+
+                <h4 class="director">Director :  <span id="m-director">Joe Johston</span></h4>
+
+                <h4 class="writer">Writers :  <span id="m-writer">Joe Johston</span></h4>
+
+                <h4 class="star">Stars :  <span id="m-stars">Chris</span></h4>
+
+                <button class="m-addbtn" id="m-id" type="button">Add to favorite</button>
+            </div> -->
+        </div>
+        
+    </div>
+
+
+    <!-- start main , favorite movies list page -->
+    <div class="main">
+        <h2 id="list-search">Home</h2>
+        <h1 class="fav-title">Favorite Movies List</h1>
+
+        <div id="list-container">
+            <!-- <li>
+                <img src="https://akamaividz2.zee5.com/image/upload/w_224,h_336,c_scale,f_webp,q_auto:eco/resources/0-0-1z5214627/portrait/1920x770da10e51d95a74d62bce2f30739c831fa.jpg" alt="movie image">
+                <h3>Movies Names 1.........</h3>
+                <h3>Year</h3>
+                <i id="transh-bin" class="fa-solid fa-trash"></i>
+            </li> -->
+
+        </div>
+
+    </div>
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
